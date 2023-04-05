@@ -32,11 +32,18 @@
 
 .btn-cart{
     width: 100%;
-    background-color:bisque ;
+    background-color: rgb(169, 249, 252);
     border: none;
     border-radius: 0 0 8px 8px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart p{
+    margin-right: 5px;
 }
 
 .btn-cart:hover{
